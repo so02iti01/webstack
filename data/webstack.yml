@@ -5,6 +5,10 @@
     - term: 播客搜索 # 小列表名
       links:
         - title: pod.link # 网址名
-          logo: assets/images/logos/producthunt.png
+          logo: assets/images/logos/podlink.png
           url: https://pod.link/
           description: Share a podcast
+        - title: listennotes # 网址名
+          logo: assets/images/logos/listennotes.png
+          url: https://www.listennotes.com/
+          description: Discover best podcasts
