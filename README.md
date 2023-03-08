@@ -15,4 +15,10 @@
           description: 发现新鲜有趣的产品
 ```
 - 其它信息（导航网站的名称等）通过 `config.toml` 修改
+- 可能用到的 hugo 命令
+```
+hugo -D  # deploy
+hugo server # 本地测试
+```
 - 感谢主题制作者[iplaycode](https://github.com/iplaycode)
+
