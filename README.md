@@ -1,5 +1,6 @@
 # 说明
-一个使用 hugo 主题 [webstack-hugo](https://github.com/iplaycode/webstack-hugo) 的网址导航
+- 一个使用 hugo 主题 [webstack-hugo](https://github.com/iplaycode/webstack-hugo) 的网址导航
+- 感谢主题制作者[iplaycode](https://github.com/iplaycode)
 # 其它信息
 - 网址信息通过  `data/webstack.yml` 修改，格式是
 ```
@@ -26,5 +27,4 @@
 hugo -D  # deploy
 hugo server # 本地测试
 ```
-- 感谢主题制作者[iplaycode](https://github.com/iplaycode)
 
