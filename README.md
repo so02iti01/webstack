@@ -18,6 +18,7 @@
           url: https://www.producthunt.com/
           description: 发现新鲜有趣的产品
 ```
+- 分类标题前面的图标，参照[图标库](https://fontawesome.com.cn/faicons/)选择
 - 站点的"关于本站"页面，在 `content/about.md` 修改
 - 其它信息（导航网站的名称等）通过 `config.toml` 修改
 - 可能用到的 hugo 命令
