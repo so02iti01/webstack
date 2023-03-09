@@ -1,6 +1,6 @@
 ---
 - taxonomy: Podcast  # 分类名
-  icon: linecons-lightbulb
+  icon: fa-volume-up
   list: 
     - term: 播客搜索 # 小列表名
       links:
@@ -63,8 +63,56 @@
         - title: archive.today # 网址名
           logo: assets/images/logos/archivetoday.png
           url: https://archive.ph/
-          description: webpage capture
+          description: Webpage capture
         - title: Ghostarchive # 网址名
           logo: assets/images/logos/ghostarchive.png
           url: https://ghostarchive.org/
-          description: a website archive
+          description: A website archive
+
+- taxonomy: Blogs  # 分类名
+  icon: fal fa-comment
+  list: 
+    - term: 博客平台 # 小列表名
+      links:
+        - title: Mataroa  # 网址名
+          logo: assets/images/logos/mataroa.png
+          url: https://mataroa.blog/
+          description: Blogging platform for minimalists
+        - title: Bear Blog # 网址名
+          logo: assets/images/logos/bearblog.jpeg
+          url: https://bearblog.dev/
+          description: Publish something awesome with your bear hands ʕ•ᴥ•ʔﾉ♡
+        - title: telegra.ph # 网址名
+          logo: assets/images/logos/telegra_ph.png
+          url: https://telegra.ph/
+          description: A minimalist publishing tool created by Telegram
+
+- taxonomy: Meetings  # 分类名
+  icon: fa-users
+  list: 
+    - term: 视频会议 # 小列表名
+      links:
+        - title: Jitsi Meet  # 网址名
+          logo: assets/images/logos/JitsiMeet.ico
+          url: https://meet.jit.si/
+          description: Start & join meetings for free
+        - title: 8x8 Meet # 网址名
+          logo: assets/images/logos/8x8.png
+          url: https://8x8.vc/
+          description: Video Conferencing Solutions
+    - term: 电子白板 # 小列表名
+      links:
+        - title: Witeboard  # 网址名
+          logo: assets/images/logos/Witeboard.ico
+          url: https://witeboard.com/
+          description: Whiteboard for Online Collaboration
+
+- taxonomy: Open source  # 分类名
+  icon: fal fa-code
+  list: 
+    - term: Open Source Alternatives # 小列表名
+      links:
+        - title: Open Source Alternatives to Proprietary Software  # 网址名
+          logo: assets/images/logos/opensourcealternative.jpg
+          url: https://www.opensourcealternative.to/
+          description: Discover 400+ popular open source alternatives to your proprietary SaaS
