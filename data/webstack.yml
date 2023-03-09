@@ -1,8 +1,48 @@
 ---
-- taxonomy: Podcast  # 分类名
+- taxonomy: RSS 和 Email  # 分类名
+  icon: fa-rss
+  list: 
+    - term: RSS 和 Newsletters # 小列表名
+      links:
+        - title: feeddd # 网址名
+          logo: assets/images/logos/github.png
+          url: https://raw.githubusercontent.com/feeddd/feeds/master/feeds_all_atom.txt
+          description: 微信公众号部分 RSS 链接
+        - title: Kill the Newsletter! # 网址名
+          logo: assets/images/logos/Kill-the-Newsletter.png
+          url: https://kill-the-newsletter.com/
+          description: Convert email newsletters into Atom feeds
+        - title: mailbrew # 网址名
+          logo: assets/images/logos/mailbrew.ico
+          url: https://mailbrew.com/
+          description: 将RSS转化为Newsletter，并且不止于RSS
+        - title: 今天看啥 # 网址名
+          logo: assets/images/logos/jintiankansha.jpg
+          url: http://www.jintiankansha.me/about/rss
+          description: 公众号订阅为 RSS（优质付费服务）
+        - title: getpodcast # 网址名
+          logo: assets/images/logos/getpodcast.ico
+          url: https://getpodcast.xyz/
+          description: 播客 Feed 订阅
+        - title: 竹白专栏检索 # 网址名
+          logo: assets/images/logos/zbliey.png
+          url: https://zb.liey.cn/
+          description: 竹白专栏分类统计
+    - term: 一次性临时邮箱 # 小列表名
+      links:
+        - title: Temp Mail # 网址名
+          logo: assets/images/logos/TempMail.png
+          url: https://temp-mail.io/zh
+          description: 一次性临时电子邮件
+        - title: EmailOnDeck # 网址名
+          logo: assets/images/logos/EmailOnDeck.ico
+          url: https://www.emailondeck.com/
+          description: A disposable email address that works.
+
+- taxonomy: Media  # 分类名
   icon: fa-volume-up
   list: 
-    - term: 播客搜索 # 小列表名
+    - term: Podcast 搜索 # 小列表名
       links:
         - title: pod.link # 网址名
           logo: assets/images/logos/podlink.png
@@ -12,6 +52,78 @@
           logo: assets/images/logos/listennotes.png
           url: https://www.listennotes.com/
           description: Discover best podcasts
+    - term: 图片搜索、生成 # 小列表名
+      links:
+        - title: images-clone # 网址名
+          logo: assets/images/logos/images-clone.ico
+          url: https://images-clone.netlify.app/
+          description: Unsplash 的一个搜索前端
+        - title: Unsplash # 网址名
+          logo: assets/images/logos/Unsplash.png
+          url: https://unsplash.com/
+          description: Beautiful Free Images & Pictures
+        - title: wallhaven # 网址名
+          logo: assets/images/logos/wallhaven.ico
+          url: https://wallhaven.cc/
+          description: The best wallpapers on the Net!
+        - title: removebg # 网址名
+          logo: assets/images/logos/removebg.png
+          url: https://www.remove.bg/
+          description: Remove Image Background
+        - title: This X Does Not Exist # 网址名
+          logo: assets/images/logos/thisxdoesnotexist.png
+          url: https://thisxdoesnotexist.com/
+          description: 生成世界上不存在的事物的图片
+        - title: PixelMe  # 网址名
+          logo: assets/images/logos/PixelMe.ico
+          url: https://pixel-me.tokyo/en/
+          description: Convert your photo into pixelart.
+        - title: DrawBot  # 网址名
+          logo: assets/images/logos/DrawBot.png
+          url: https://www.drawbot.com/
+          description: Write simple Python scripts to generate two-dimensional graphics
+        - title: Novel Ai # 网址名
+          logo: assets/images/logos/novelai-round.png
+          url: https://novelai.net/image
+          description: AI 画图
+        - title: NovelAI tag  # 网址名
+          logo: assets/images/logos/wolfchen.ico
+          url: http://wolfchen.top/tag/
+          description: 在线生成器
+    - term: Reverse Image Search # 小列表名
+      links:
+        - title: TinEye # 网址名
+          logo: assets/images/logos/TinEye.ico
+          url: https://tineye.com/
+          description: Find where images appear online
+        - title: Guide To # 网址名
+          logo: assets/images/logos/favicon-32x32.png
+          url: https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/
+          description: Using Reverse Image Search For Investigations
+    - term: 图片处理 # 小列表名
+      links:
+        - title: 中文 OCR - Convertio # 网址名
+          logo: assets/images/logos/convertio.png
+          url: https://convertio.co/ocr/chinese/
+          description: Chinese Simplified and Traditional OCR (Online & Free) 
+        - title: 4qrcode # 网址名
+          logo: assets/images/logos/4qrcode.png
+          url: https://4qrcode.com/scan-qr-code.php
+          description: Free QR Code scanner online
+        - title: 图片盲水印在线工具 # 网址名
+          logo: assets/images/logos/iculture.ico
+          url: https://stegonline.iculture.cc/
+          description: 去除图片盲水印
+    - term: 流程图 # 小列表名
+      links:
+        - title: Drawio # 网址名
+          logo: assets/images/logos/Drawio.png
+          url: https://app.diagrams.net/
+          description: Flowchart Maker and Online Diagram Software 
+        - title: Kroki # 网址名
+          logo: assets/images/logos/kroki.png
+          url: https://kroki.io/
+          description: Creates diagrams from textual descriptions!
 
 - taxonomy: File-sharing  # 分类名
   icon: fal fa-share-square
@@ -86,6 +198,12 @@
           logo: assets/images/logos/telegra_ph.png
           url: https://telegra.ph/
           description: A minimalist publishing tool created by Telegram
+    - term: 图床 # 小列表名
+      links:
+        - title: SM.MS  # 网址名
+          logo: assets/images/logos/SM-MS.png
+          url: http://sm.ms/
+          description: Simple Free Image Hosting
 
 - taxonomy: Meetings  # 分类名
   icon: fa-users
@@ -106,6 +224,35 @@
           logo: assets/images/logos/Witeboard.ico
           url: https://witeboard.com/
           description: Whiteboard for Online Collaboration
+- taxonomy: URL 处理  # 分类名
+  icon: fa-sort
+  list: 
+    - term: URL 缩短 # 小列表名
+      links:
+        - title: wee.cat  # 网址名
+          logo: assets/images/logos/weecat.png
+          url: https://wee.cat/
+          description: URL to shorten
+        - title: tinyurl  # 网址名
+          logo: assets/images/logos/tinyurl.png
+          url: https://tinyurl.com/app
+          description: Enter a long URL to make a TinyURL
+    - term: URL 跟踪参数去除 # 小列表名
+      links:
+        - title: URL Cleaner  # 网址名
+          logo: 
+          url: https://tools.o3o.studio/clearurls/
+          description: It is a virtue to clean up the tracking parameters before sharing the link.
+
+- taxonomy: 下载  # 分类名
+  icon: fa-arrow-down
+  list: 
+    - term: 直链获取 # 小列表名
+      links:
+        - title: 涟漪  # 网址名
+          logo: 
+          url: https://189.ly93.cc/
+          description: 天翼云直链解析
 
 - taxonomy: Open source  # 分类名
   icon: fal fa-code
