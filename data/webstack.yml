@@ -12,3 +12,59 @@
           logo: assets/images/logos/listennotes.png
           url: https://www.listennotes.com/
           description: Discover best podcasts
+
+- taxonomy: File-sharing  # 分类名
+  icon: fal fa-share-square
+  list: 
+    - term: 文件分享 # 小列表名
+      links:
+        - title: Tresorit Send # 网址名
+          logo: assets/images/logos/tresorit-send.png
+          url: https://send.tresorit.com/
+          description: Secure, Fast & Free
+        - title: Wormhole # 网址名
+          logo: assets/images/logos/wormhole.webp
+          url: https://wormhole.app/
+          description: Simple, private file sharing
+        - title: MEGA # 网址名
+          logo: assets/images/logos/megaicon.svg
+          url: https://mega.io/
+          description: Cloud Storage
+        - title: WeTransfer  # 网址名
+          logo: assets/images/logos/wetransfer.png
+          url: https://wetransfer.com/
+          description: Send Large Files & Share Photos Online
+        - title: AnonFiles  # 网址名
+          logo: assets/images/logos/anonfiles.png
+          url: https://anonfiles.com/
+          description: Anonymous File Upload
+        - title: GigaFile  # 网址名
+          logo: assets/images/logos/gigafile.png
+          url: https://gigafile.nu/
+          description: 無料大容量 ファイル転送サービス
+        - title: TeraCLOUD  # 网址名
+          logo: assets/images/logos/TeraCLOUD.png
+          url: https://teracloud.jp/en/
+          description: Reliability at its Finest
+        - title: Send  # 网址名
+          logo: assets/images/logos/send.svg
+          url: https://send.bgme.bid/
+          description: Simple, private file sharing
+        - title: bayfiles  # 网址名
+          logo: assets/images/logos/bayfiles.png
+          url: https://bayfiles.com/
+          description: Resilient file hosting
+
+- taxonomy: Archive  # 分类名
+  icon: fal fa-archive
+  list: 
+    - term: 网页存档 # 小列表名
+      links:
+        - title: archive.today # 网址名
+          logo: assets/images/logos/archivetoday.png
+          url: https://archive.ph/
+          description: webpage capture
+        - title: Ghostarchive # 网址名
+          logo: assets/images/logos/ghostarchive.png
+          url: https://ghostarchive.org/
+          description: a website archive
