@@ -9,7 +9,11 @@
   list: 
     - term: 发现产品 # 小列表名
       links:
-        - title: Producthunt # 网址名
+        - title: Producthunt # 网站1
+          logo: assets/images/logos/producthunt.png
+          url: https://www.producthunt.com/
+          description: 发现新鲜有趣的产品
+        - title: Producthunt # 网站2
           logo: assets/images/logos/producthunt.png
           url: https://www.producthunt.com/
           description: 发现新鲜有趣的产品
