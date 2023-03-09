@@ -5,7 +5,7 @@ theme = "webstack-hugo"
 preserveTaxonomyNames = true
 disablePathToLower = true
 hasCJKLanguage = true
-copyright = ""
+copyright = "shark"
 [params]
   author = "iplaycode"
   description = "Webstack Hugo"

@@ -5,6 +5,7 @@
     <link>http://example.org/categories/</link>
     <description>Recent content in Categories on 网址导航</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <copyright>shark</copyright><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,0 +1,4 @@
+- `favicon.png` 网站logo(浏览器标签显示)
+- `logo-collapsed@2x.png` 网站logo(侧边栏折叠时显示)
+- `logo_dark@2x.png ` 网站logo(暗黑模式使用)
+- `logo@2x.png` 网站logo(默认模式使用)
