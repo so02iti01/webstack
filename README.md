@@ -5,15 +5,20 @@
 ```
 ---
 - taxonomy: 灵感采集  # 分类名
-  icon: linecons-lightbulb
+  icon: linecons-lightbulb # 分类标题的图标
   list: 
     - term: 发现产品 # 小列表名
       links:
-        - title: Producthunt # 网址名
+        - title: Producthunt # 网站1
+          logo: assets/images/logos/producthunt.png
+          url: https://www.producthunt.com/
+          description: 发现新鲜有趣的产品
+        - title: Producthunt # 网站2
           logo: assets/images/logos/producthunt.png
           url: https://www.producthunt.com/
           description: 发现新鲜有趣的产品
 ```
+- 分类标题前面的图标，参照[图标库](https://fontawesome.com.cn/faicons/)选择
 - 站点的"关于本站"页面，在 `content/about.md` 修改
 - 其它信息（导航网站的名称等）通过 `config.toml` 修改
 - 可能用到的 hugo 命令
