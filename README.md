@@ -5,7 +5,7 @@
 ```
 ---
 - taxonomy: 灵感采集  # 分类名
-  icon: linecons-lightbulb
+  icon: linecons-lightbulb # 分类标题的图标
   list: 
     - term: 发现产品 # 小列表名
       links:
