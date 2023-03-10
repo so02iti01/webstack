@@ -1,6 +1,6 @@
 ---
-- taxonomy: RSS 和 Email  # 分类名
-  icon: fa-rss
+- taxonomy: RSS, Email  # 分类名
+  icon: fal fa-rss
   list: 
     - term: RSS 和 Newsletters # 小列表名
       links:
@@ -40,7 +40,7 @@
           description: A disposable email address that works.
 
 - taxonomy: Media  # 分类名
-  icon: fa-volume-up
+  icon: fal fa-volume-up
   list: 
     - term: Podcast 搜索 # 小列表名
       links:
@@ -198,6 +198,10 @@
           logo: assets/images/logos/ghostarchive.png
           url: https://ghostarchive.org/
           description: A website archive
+        - title: Internet Archive # 网址名
+          logo: assets/images/logos/InternetArchive.svg
+          url: https://archive.org/
+          description: A non-profit library of millions of free books, movies, software, music, websites, and more.
 
 - taxonomy: Blogs  # 分类名
   icon: fal fa-comment
@@ -216,6 +220,10 @@
           logo: assets/images/logos/telegra_ph.png
           url: https://telegra.ph/
           description: A minimalist publishing tool created by Telegram
+        - title: typlog # 网址名
+          logo: assets/images/logos/typlog.ico
+          url: https://typlog.com/
+          description: For Your Thoughts, Moments and Voices
     - term: 图床 # 小列表名
       links:
         - title: SM.MS  # 网址名
@@ -224,7 +232,7 @@
           description: Simple Free Image Hosting
 
 - taxonomy: Meetings  # 分类名
-  icon: fa-users
+  icon: fal fa-users
   list: 
     - term: 视频会议 # 小列表名
       links:
@@ -242,8 +250,14 @@
           logo: assets/images/logos/Witeboard.ico
           url: https://witeboard.com/
           description: Whiteboard for Online Collaboration
-- taxonomy: URL 处理  # 分类名
-  icon: fa-sort
+    - term: 在线聊天 # 小列表名
+      links:
+        - title: hack.chat  # 网址名
+          logo: assets/images/logos/hackchat.png
+          url: https://hack.chat/
+          description: A minimal, distraction-free chat application.
+- taxonomy: URLs  # 分类名
+  icon: fal fa-chain (alias)
   list: 
     - term: URL 缩短 # 小列表名
       links:
@@ -258,12 +272,12 @@
     - term: URL 跟踪参数去除 # 小列表名
       links:
         - title: URL Cleaner  # 网址名
-          logo: 
+          logo: assets/images/logos/default.png  # 默认图标
           url: https://tools.o3o.studio/clearurls/
           description: It is a virtue to clean up the tracking parameters before sharing the link.
 
-- taxonomy: 下载  # 分类名
-  icon: fa-arrow-down
+- taxonomy: Download  # 分类名
+  icon: fal fa-arrow-down
   list: 
     - term: 加速下载 # 小列表名
       links:
@@ -276,7 +290,7 @@
           url: https://buy.1580vip.com/
           description: 我也不想用百度网盘啊！
 
-- taxonomy: Open source  # 分类名
+- taxonomy: Codes  # 分类名
   icon: fal fa-code
   list: 
     - term: Open Source Alternatives # 小列表名
@@ -285,3 +299,73 @@
           logo: assets/images/logos/opensourcealternative.jpg
           url: https://www.opensourcealternative.to/
           description: Discover 400+ popular open source alternatives to your proprietary SaaS
+    - term: CS Courses # 小列表名
+      links:
+        - title: She Codes Australia # 网址名
+          logo: assets/images/logos/She-Codes.svg
+          url: https://shecodes.com.au/
+          description: Stay in the loop!
+        - title: Road To Coding # 网址名
+          logo: assets/images/logos/r2coding.ico
+          url: https://r2coding.com/
+          description: 编程自学之路
+        - title: CS自学指南 # 网址名
+          logo: assets/images/logos/csdiywiki.ico
+          url: https://csdiy.wiki/
+          description: 对自己大学三年自学生涯的一个纪念，这同时也是一份献给北大信科学弟学妹们的礼物。
+        - title: HTML & CSS Crash Course # 网址名
+          logo: assets/images/logos/scrimba.png
+          url: https://scrimba.com/learn/introhtmlcss
+          description: Beginner, free
+        - title: Deep Learning # 网址名
+          logo: assets/images/logos/default.png 
+          url: https://www.deeplearningbook.org/
+          description: An MIT Press book
+        - title: Google I/O # 网址名
+          logo: assets/images/logos/googleio.png
+          url: https://io.google/
+          description: Open to everyone online
+        - title: Data Science for Beginners # 网址名
+          logo: assets/images/logos/Data-Science-For-Beginners.png
+          url: https://microsoft.github.io/Data-Science-For-Beginners/#/
+          description: By Microsoft
+        - title: Microsoft 365 Dev Center  # 网址名
+          logo: assets/images/logos/microsoft.png
+          url: https://developer.microsoft.com/en-us/microsoft-365/dev-program
+          description: Get a free, renewable 90-day Microsoft 365 developer subscription with Microsoft 365 apps
+        - title: hackr.io # 网址名
+          logo: assets/images/logos/hackrio.png
+          url: https://hackr.io/
+          description: Explore the world's top curated courses & tutorials in one simple place
+        - title: Learn Git Branching # 网址名
+          logo: assets/images/logos/learngitbranching.ico
+          url: https://learngitbranching.js.org/
+          description: 模拟学习 git 操作
+        - title: CodePen # 网址名
+          logo: assets/images/logos/codepen.webp
+          url: https://codepen.io/
+          description: Build & Test for Front-end Designers and Developers.
+        - title: MLH Fellowship # 网址名
+          logo: assets/images/logos/MLHFellowship.ico
+          url: https://fellowship.mlh.io/
+          description: Learn by Doing
+        - title: TypeScript 入门指南 # 网址名
+          logo: assets/images/logos/rualc.png
+          url: https://rualc.com/cs/typescript-language-basic/
+          description: 从入门到熟悉需要大约 20~40 小时
+        - title: Exercism # 网址名
+          logo: assets/images/logos/Exercism.png
+          url: https://exercism.org/
+          description: Fun, effective and 100% free, forever
+        - title: Hour of Code # 网址名
+          logo: assets/images/logos/hourofcode.png
+          url: https://hourofcode.com/ca/cn/learn
+          description: 编程一小时
+        - title: Code.org # 网址名
+          logo: assets/images/logos/Codeorg.svg
+          url: https://code.org/
+          description: Code.org® is a nonprofit dedicated to expanding access to computer science
+        - title: HackTricks # 网址名
+          logo: assets/images/logos/HackTricks.png
+          url: https://book.hacktricks.xyz/welcome/readme
+          description: each hacking trick/technique/whatever I have learnt from CTFs, real life apps, reading researches, and news.
