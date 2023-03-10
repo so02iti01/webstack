@@ -124,6 +124,24 @@
           logo: assets/images/logos/kroki.png
           url: https://kroki.io/
           description: Creates diagrams from textual descriptions!
+    - term: 音乐 # 小列表名
+      links:
+        - title: Music-MapFind  # 网址名
+          logo: assets/images/logos/musicmap.jpeg
+          url: https://www.music-map.com/
+          description: Similar Music
+        - title: Island Tune Creator - Nooknet # 网址名
+          logo: assets/images/logos/nooknet.png
+          url: https://nooknet.net/tunes
+          description: 动森音乐生成
+        - title: 泡泡白噪音 # 网址名
+          logo: assets/images/logos/ppbzy.ico
+          url: https://www.ppbzy.com/
+          description: 不同地点背景和环境
+        - title: Tuberipper # 网址名
+          logo: assets/images/logos/tuberipper.svg
+          url: https://tuberipper.com/
+          description: Extract and download audio and video from YouTube and most online services
 
 - taxonomy: File-sharing  # 分类名
   icon: fal fa-share-square
@@ -247,12 +265,16 @@
 - taxonomy: 下载  # 分类名
   icon: fa-arrow-down
   list: 
-    - term: 直链获取 # 小列表名
+    - term: 加速下载 # 小列表名
       links:
         - title: 涟漪  # 网址名
-          logo: 
+          logo: assets/images/logos/lianyi.jpeg
           url: https://189.ly93.cc/
           description: 天翼云直链解析
+        - title: 百度网盘会员借用 - 闪电购  # 网址名
+          logo: assets/images/logos/shandiangou.ico
+          url: https://buy.1580vip.com/
+          description: 我也不想用百度网盘啊！
 
 - taxonomy: Open source  # 分类名
   icon: fal fa-code
