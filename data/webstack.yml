@@ -126,10 +126,10 @@
           description: Creates diagrams from textual descriptions!
     - term: 音乐 # 小列表名
       links:
-        - title: Music-MapFind  # 网址名
+        - title: Music-Map # 网址名
           logo: assets/images/logos/musicmap.jpeg
           url: https://www.music-map.com/
-          description: Similar Music
+          description: Find Similar Music
         - title: Island Tune Creator - Nooknet # 网址名
           logo: assets/images/logos/nooknet.png
           url: https://nooknet.net/tunes
