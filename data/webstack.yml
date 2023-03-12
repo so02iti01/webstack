@@ -54,6 +54,10 @@
           description: Discover best podcasts
     - term: 图片搜索、生成 # 小列表名
       links:
+        - title: openverse # 网址名
+          logo: assets/images/logos/openverse.svg
+          url: https://openverse.org/
+          description: Openly Licensed Images, Audio and More, available for free use
         - title: images-clone # 网址名
           logo: assets/images/logos/images-clone.ico
           url: https://images-clone.netlify.app/
@@ -185,6 +189,64 @@
           url: https://bayfiles.com/
           description: Resilient file hosting
 
+- taxonomy: Language  # 分类名
+  icon: fal fa-archive
+  list: 
+    - term: 翻译工具 # 小列表名
+      links:
+        - title: 能不能好好说话？  # 网址名
+          logo: assets/images/logos/magiconch.jpeg
+          url: https://lab.magiconch.com/nbnhhsh/
+          description: 拼音首字母缩写释义工具
+        - title: 术语在线  # 网址名
+          logo: assets/images/logos/termonline.ico
+          url: https://www.termonline.cn/index
+          description: 科学名词的中英文对照搜索
+    - term: 语言学习 # 小列表名
+      links:
+        - title: Pronounce Names  # 网址名
+          logo: assets/images/logos/pronouncenames.ico
+          url: https://www.pronouncenames.com/
+          description: 查询人名的读音
+        - title: A Programmer's Guide to English  # 网址名
+          logo: assets/images/logos/harryyu2.png
+          url: https://a-programmers-guide-to-english.harryyu.me/
+          description: 专为程序员编写的英语学习指南
+        - title: Mauril  # 网址名
+          logo: assets/images/logos/mauril.svg
+          url: https://mauril.ca/en/
+          description: Learn French and English with audio and video content from CBC and Radio-Canada
+        - title: 1filedownload  # 网址名
+          logo: assets/images/logos/1filedownload.ico
+          url: https://1filedownload.com/language-exams/
+          description: Resources for IELTS, TOEFL, PTE and CELPIP
+        - title: QuillBot  # 网址名
+          logo: assets/images/logos/quillbot.png
+          url: https://quillbot.com/
+          description: QuillBot's AI-powered paraphrasing tool will enhance your writing
+        - title: Learn the Romance Languages Together  # 网址名
+          logo: assets/images/logos/ielanguages.ico
+          url: https://ielanguages.com/blog/learn-the-romance-languages-together-resources-you-need/
+          description: Resources You Need
+    - term: 语言游戏 # 小列表名
+      links:
+        - title: Language Squad  # 网址名
+          logo: assets/images/logos/default.png
+          url: https://www.languagesquad.com/
+          description: The Greatest Language Identifying & Guessing Game.
+        - title: Baba Dum  # 网址名
+          logo: assets/images/logos/babadum.png
+          url: https://babadum.com/
+          description: Play and learn | 1500 words, 21 languages, 5 games
+        - title: Quordle  # 网址名
+          logo: assets/images/logos/Quordle.png
+          url: https://fr.quordle.com/
+          description: 法语的 wordle
+        - title: Wordle Game  # 网址名
+          logo: assets/images/logos/wordleplay.ico
+          url: https://wordleplay.com/
+          description: 下拉还有 Wordle Solver，帮助解密 wordle
+
 - taxonomy: Archive  # 分类名
   icon: fal fa-archive
   list: 
@@ -208,6 +270,10 @@
   list: 
     - term: 博客平台 # 小列表名
       links:
+        - title: Wordpress.com # 网址名
+          logo: assets/images/logos/wordpress.ico
+          url: https://wordpress.com/
+          description: Welcome to the world's most popular website builder.
         - title: Mataroa  # 网址名
           logo: assets/images/logos/mataroa.png
           url: https://mataroa.blog/
@@ -277,7 +343,7 @@
           description: It is a virtue to clean up the tracking parameters before sharing the link.
 
 - taxonomy: Download  # 分类名
-  icon: fal fa-arrow-down
+  icon: fal fa-download
   list: 
     - term: 加速下载 # 小列表名
       links:
@@ -293,12 +359,16 @@
 - taxonomy: Codes  # 分类名
   icon: fal fa-code
   list: 
-    - term: Open Source Alternatives # 小列表名
+    - term: Open Source # 小列表名
       links:
-        - title: Open Source Alternatives to Proprietary Software  # 网址名
+        - title: Open Source Alternatives  # 网址名
           logo: assets/images/logos/opensourcealternative.jpg
           url: https://www.opensourcealternative.to/
           description: Discover 400+ popular open source alternatives to your proprietary SaaS
+        - title: Wordpress.org # 网址名
+          logo: assets/images/logos/wordpress2.ico
+          url: https://wordpress.org/
+          description: wordpress 框架是 open-source
     - term: CS Courses # 小列表名
       links:
         - title: She Codes Australia # 网址名
