@@ -52,6 +52,12 @@
           logo: assets/images/logos/listennotes.png
           url: https://www.listennotes.com/
           description: Discover best podcasts
+    - term: 一些视频 # 小列表名
+      links:
+        - title: Crash Course 中文字幕组 # 网址名
+          logo: assets/images/logos/crashcourse.png
+          url: https://crashcourse.club/
+          description: Don't forget to be Awesome!
     - term: 图片搜索、生成 # 小列表名
       links:
         - title: openverse # 网址名
@@ -86,6 +92,10 @@
           logo: assets/images/logos/DrawBot.png
           url: https://www.drawbot.com/
           description: Write simple Python scripts to generate two-dimensional graphics
+        - title: DALL·E # 网址名
+          logo: assets/images/logos/DALL-E.png
+          url: https://labs.openai.com/
+          description: 一句话 AI 画图
         - title: Novel Ai # 网址名
           logo: assets/images/logos/novelai-round.png
           url: https://novelai.net/image
@@ -198,6 +208,10 @@
           logo: assets/images/logos/magiconch.jpeg
           url: https://lab.magiconch.com/nbnhhsh/
           description: 拼音首字母缩写释义工具
+        - title: DeepL logo Translator  # 网址名
+          logo: assets/images/logos/deepl.svg
+          url: https://www.deepl.com/translator
+          description: The world's most accurate and nuanced machine translation
         - title: 术语在线  # 网址名
           logo: assets/images/logos/termonline.ico
           url: https://www.termonline.cn/index
@@ -290,6 +304,10 @@
           logo: assets/images/logos/typlog.ico
           url: https://typlog.com/
           description: For Your Thoughts, Moments and Voices
+        - title: Notion # 网址名
+          logo: assets/images/logos/notion.ico
+          url: https://www.notion.so/
+          description: 交互式界面，操作简单，有Notion AI
     - term: 图床 # 小列表名
       links:
         - title: SM.MS  # 网址名
@@ -310,6 +328,10 @@
           logo: assets/images/logos/8x8.png
           url: https://8x8.vc/
           description: Video Conferencing Solutions
+        - title: Zoom Virtual Backgrounds # 网址名
+          logo: assets/images/logos/zoom.ico
+          url: https://explore.zoom.us/en/virtual-backgrounds/
+          description: Download your favorite virtual backgrounds and add them to your meetings!
     - term: 电子白板 # 小列表名
       links:
         - title: Witeboard  # 网址名
@@ -369,6 +391,20 @@
           logo: assets/images/logos/wordpress2.ico
           url: https://wordpress.org/
           description: wordpress 框架是 open-source
+    - term: 建站 # 小列表名
+      links:
+        - title: TLD-List  # 网址名
+          logo: assets/images/logos/tld-list.ico
+          url: https://tld-list.com/
+          description: Compare Prices of All Top-Level Domains
+        - title: NGINXConfig  # 网址名
+          logo: assets/images/logos/digitalocean.png
+          url: https://www.digitalocean.com/community/tools/nginx?global.app
+          description: NGINX 图形化配置
+        - title: UptimeRobot  # 网址名
+          logo: assets/images/logos/uptimerobot.ico
+          url: https://uptimerobot.com/
+          description: 每隔5分钟检测服务是否在线
     - term: CS Courses # 小列表名
       links:
         - title: She Codes Australia # 网址名
